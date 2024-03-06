@@ -1,0 +1,27 @@
+main {
+    width: 80%;
+    margin: auto;
+}
+
+img {
+    max-width: 500px;
+}
+
+.section-container {
+    position: relative;
+}
+
+.img-wrapper {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+.text-wrapper {
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1000px){
+    img {
+        max-width: 250px;
+    }
+}
