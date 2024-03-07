@@ -4,7 +4,7 @@ main {
 }
 
 img {
-    max-width: 500px;
+    max-width: 400px;
 }
 
 .section-container {
@@ -14,7 +14,7 @@ img {
 
 .img-wrapper {
     float: right;
-    margin: 0 0 10px 10px;
+    margin: 0 0 10px 40px;
 }
 
 .text-wrapper {
@@ -27,7 +27,13 @@ img {
     width: 100%;
 }
 
-@media screen and (max-width: 1000px){
+.list-text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+@media screen and (max-width: 1200px){
     img {
         max-width: 250px;
     }
