@@ -18,8 +18,11 @@ img {
 
 .text-wrapper {
     overflow: hidden;
+    shape-outside: margin-box;
 }
-
+.clearfix {
+    clear: both;
+}
 @media screen and (max-width: 1000px){
     img {
         max-width: 250px;
