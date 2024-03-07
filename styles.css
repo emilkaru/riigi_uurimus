@@ -2,9 +2,8 @@ main {
     width: 80%;
     margin: auto;
 }
-
 img {
-    max-width: 400px;
+    margin: 10px 10px 0 0;
 }
 
 .section-container {
@@ -12,6 +11,9 @@ img {
 }
 
 .img-wrapper {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
     right: 0;
     margin: 0 0 50px 10px;
 }
