@@ -1,26 +1,27 @@
 main {
     width: 80%;
     margin: auto;
+    display: grid;
+    direction: ltr;
 }
 img {
     margin: 10px 10px 0 0;
+    border: 1px solid #c4c4c4;
 }
 
-.section-container {
-    display: flex;
-}
-
-.img-wrapper {
-    max-width: 400px;
-    display: flex;
-    flex-direction: column;
-    right: 0;
-    margin: 0 0 50px 10px;
+figure {
+    display: table;
+    float: right;
+    clear: right;
+    background-color: #eeeeee;
+    border: 1px solid #b9b9b9;
+    max-width: 300px;
+    padding: 10px;
+    margin: 0 0 20px 10px;
 }
 
 .text-wrapper {
     margin-left: 20px;
-    flex: 1;
     overflow: hidden;
 }
 
@@ -36,10 +37,4 @@ img {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-}
-
-@media screen and (max-width: 1200px){
-    img {
-        max-width: 250px;
-    }
 }
