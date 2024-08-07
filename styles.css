@@ -20,7 +20,7 @@ figure {
     margin: 0 0 20px 10px;
 }
 
-.text-wrapper {
+.section-container {
     margin-left: 20px;
     overflow: hidden;
 }
@@ -37,4 +37,12 @@ figure {
     display: flex;
     flex-direction: row;
     align-items: baseline;
+}
+
+h1 {
+    border-bottom: 1px solid black;
+}
+
+h2 {
+    border-bottom: 1px solid black;
 }
