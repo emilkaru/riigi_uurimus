@@ -9,17 +9,19 @@
     <body>
         <main>
             <h1>Riigi uurimus: Egiptus</h1>
+            <h2 class="section-container">Interaktiivne kaart</h2>
+            <span class="section-container" id="map-instruction">Kliki kaardile, et zoomida.</span>
             <div id="G-maps-container" class="section-container">
-                <h2>Interaktiivne kaart</h2>
                 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1kggkoDD7qbPXscOkmpQfrPQvb5cE3hk&ehbc=2E312F&noprof=1" id="maps-iframe"></iframe>
-                <p>Siniste markeritega on märgistatud Egiptuse pealinn ja 3 suurima populatsiooniga linna</p>
+                <div class="iframe-overlay" onclick="enableIframe()"></div>
             </div>
+            <p class="section-container">Siniste markeritega on märgistatud Egiptuse pealinn ja 3 suurima populatsiooniga linna</p>
 
             <div id="main-section-1" class="section-container">
                 <h2>Üldandmed</h2>
                 <figure>
                     <a href="https://et.wikipedia.org/wiki/Egiptus">
-                        <img src="img/map.png" alt="Kaart et näidata Egiptuse asukohta" width="280">
+                        <img src="img/map.png" alt="Kaart et näidata Egiptuse asukohta">
                     </a>
                     <figcaption>
                         <a href="https://et.wikipedia.org/wiki/Egiptus">et.wikipedia.org/Egiptus</a>
@@ -45,7 +47,7 @@
                 <h2>Rahvastik</h2>
                 <figure>
                     <a href="https://www.populationpyramid.net/egypt/2023/">
-                        <img src="img/population.png" alt="Populatsiooni püramiid" width="280">
+                        <img src="img/population.png" alt="Populatsiooni püramiid">
                     </a>
                     <figcaption>
                         <a href="https://www.populationpyramid.net/egypt/2023/">www.populationpyramid.net/egypt</a>
@@ -70,7 +72,7 @@
                 <h2>Asustus</h2>
                 <figure>
                     <a href="">
-                        <img src="img/population_map.png" alt="Populatsiooni jaotus" width="280">
+                        <img src="img/population_map.png" alt="Populatsiooni jaotus">
                     </a>
                     <figcaption>
                         <a href="https://vividmaps.com/population-density-egypt/">vividmaps.com/population-density-egypt</a>
@@ -78,7 +80,7 @@
                 </figure>
                 <figure>
                     <a href="https://vividmaps.com/population-density-egypt/">
-                        <img src="img/examples.jpg" alt="Näited probleemidest linnastumisega: Slummid ja ummikud" width="280">
+                        <img src="img/examples.jpg" alt="Näited probleemidest linnastumisega: Slummid ja ummikud">
                     </a>
                     <figcaption>
                         <a href="https://www.enigma-mag.com/how-to-survive-cairo-traffic/">www.enigma-mag.com</a> ja <br>
@@ -111,9 +113,9 @@
                 </div>
 
             </div>
-            <div id="sources-wrapper">
-
-            </div>
         </main>
+        <footer>
+            Emil Karu, Saku Gümnaasiumi õpilane 2024
+        </footer>
     </body>
 </html>
